@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int countPrimes(int n) {
       // Edge case: no primes less than 2
