@@ -3,7 +3,6 @@ import java.util.Collections;
 
 class Solution {
     public static void print_divisors(int n) {
-        // code here
         ArrayList<Integer> ar = new ArrayList<>();
         for(int i=1; i*i<=n; i++){
             if(n%i==0)
