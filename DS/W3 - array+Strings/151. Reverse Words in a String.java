@@ -4,7 +4,7 @@ class Solution {
         List<String> wordList = new ArrayList<>();
         int length = s.length();
 
-        // Iterate through the entire string
+        // Iterate through the entire string 
         for (int index = 0; index < length;) {
             // Skip leading spaces
             while (index < length && s.charAt(index) == ' ') {
