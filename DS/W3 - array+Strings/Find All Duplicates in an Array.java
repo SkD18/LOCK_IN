@@ -9,7 +9,7 @@ class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         int n = nums.length;
 
-        // Phase 1: Cyclic sort - Place each number at its correct position
+        // Phase 1: Cyclic sort - Place each number at its correct position 
         // For each position, keep swapping until the current number is at its correct index
         for (int i = 0; i < n; i++) {
             // Keep swapping while:
