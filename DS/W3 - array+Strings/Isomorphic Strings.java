@@ -6,6 +6,7 @@ class Solution {
         Map<Character, Character> tToSMap = new HashMap<>();
 
         int length = s.length();
+        
 
         // Iterate through both strings simultaneously
         for (int i = 0; i < length; i++) {
