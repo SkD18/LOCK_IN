@@ -6,6 +6,7 @@ class Solution {
         int length = s.length();
         // Handle empty string
         if (length == 0) return 0;
+        
 
         // Skip leading whitespaces
         int index = 0;
