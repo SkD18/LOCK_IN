@@ -10,6 +10,7 @@ class Solution {
             Arrays.fill(row, true);
         }
 
+        
         // Variables to track the starting index and length of longest palindrome
         int startIndex = 0;
         int maxLength = 1;
