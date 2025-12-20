@@ -6,6 +6,7 @@ class Solution {
         int minEndingHere = nums[0];  // Minimum product ending at current index
         int globalMaxProduct = nums[0];  // Overall maximum product found so far
 
+        
         // Iterate through the array starting from the second element
         for (int i = 1; i < nums.length; i++) {
             // Store previous values before updating
