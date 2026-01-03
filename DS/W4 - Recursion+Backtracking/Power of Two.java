@@ -1,6 +1,13 @@
 class Solution {
     public boolean isPowerOfTwo(int n) {
         if (n <= 0) return false;
+        //bit manipulation approach
+        /**
+         *  return n > 0 && (n & (n - 1)) == 0;
+         * if n = 8, binary of 8 = 1000
+         * (1000) - 1 = 7(0111), (0111) & (1000) = 0000, (0000) == 0 is true. Result: true.
+         */
+        /
         return isTrue(n);
     }
 
