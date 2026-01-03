@@ -7,7 +7,6 @@ class Solution {
          * if n = 8, binary of 8 = 1000
          * (1000) - 1 = 7(0111), (0111) & (1000) = 0000, (0000) == 0 is true. Result: true.
          */
-        /
         return isTrue(n);
     }
 
