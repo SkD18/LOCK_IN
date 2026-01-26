@@ -26,6 +26,7 @@ class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         Boolean[] memo = new Boolean[s.length()];
         return f(s, wordDict, 0, memo);
+        
     }
 
     boolean f(String s, List<String> wordDict, int idx, Boolean[] memo) {
